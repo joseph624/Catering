@@ -1,0 +1,70 @@
+{
+    "handhelds" : {
+        "description": "Sandwiches served on artisan breads",
+        "items" : [ 
+            {
+                "name": "Italian Ciabatta",
+                "description": "capicola ham, salami, provolone, tomato, pesto, arugula"
+            },
+            {
+                "name": "Roast Beef Sandwich (Brioche Bun)",
+                "description": "roast beef, mayo, horseradish, cheddar cheese, arugula, fried onions"
+            },
+            {
+                "name": "Ham, Salami & Swiss (Sourdough)",
+                "description": "ham, salami,swiss, dill pickle, dijonnaise"
+            },
+            {
+                "name": "The Club Sandwich (Sourdough)",
+                "description": "turkey/chicken, bacon, cheddar, avocado, lettuce, tomato, mayo"
+            },
+            {
+                "name": "The Club Wrap (Spinach Wrap)",
+                "description": "turkey/chicken, bacon, cheddar, avocado, lettuce, tomato, mayo"
+            }
+
+        ]
+    },
+    "salads" : {
+        "description": "Dressings: Ranch, Italian, Balsamic Vinaigrette",
+        "items" : [ 
+            {
+                "name": "Classic Chicken Caesar",
+                "description": "crispy romaine, chicken, shredded parmesan, croutons with creamy caesar dressing"
+            },
+            {
+                "name": "Cobb Salad",
+                "description": "crispy romaine, chicken, bacon cucumber, red onion, tomato, hard boiled egg, shredded cheddar"
+            },
+            {
+                "name": "Spinach Feta",
+                "description": "baby spinach, cucumber, red onion, tomato, feta crumbles"
+            },
+            {
+                "name": "Fall/Winter Salad",
+                "description": "Arugula, bacon, butternut squash, becans, feta crumbles"
+            }
+        ]
+    },
+    "sides" : {
+        "description": "",
+        "items" : [             
+            {
+                "name": "Charcuterie Boxes",
+                "description": "6x6 Box Includes a variety of meats and cheeses with an assortment of crackers, veggies & fruits"
+            },
+            {
+                "name": "Pasta Salad",
+                "description": "rotini, cucumber, tomato, red onion, olives, feta crumbles, greek vinaigrette"
+            },
+            {
+                "name": "Fresh seasonal fruit",
+                "description": "clementine oranges, pears, apples, pomegranate, kiwi"
+            },
+            {
+                "name": "Roll",
+                "description": "Fresh Italian Bread"
+            }
+        ]
+    } 
+}
