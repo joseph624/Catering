@@ -12,6 +12,7 @@ import MeatLovers from "../images/meat.webp";
 import Nashville from "../images/nashville.webp";
 import Sirhacha from "../images/siracha.webp";
 import PepperoniRoll from "../images/pepperoni-roll.webp";
+import Chacuterie from "../images/charcuterie-menu.jpg";
 
 import { Link } from 'react-router-dom';
 
@@ -284,16 +285,7 @@ const MenuPage = () => (
               <h5 className="txt-white text-uppercase">
                 <strong>APPETIZERS</strong>
               </h5>
-              <hr className="hr-style-grey mb-5" />
-              <h4>
-                <img alt="wood fired pizza peel" src={Peel} /> {"\u00A0"}
-                CHARCUTERIE BOARD
-              </h4>
-              <p className="txt-grey txt-med">
-                Smoked cheddar Cheese, Smoked Gouda Cheese, Red Fox Cheese, Port
-                wine Derby Cheese, Agriform Piave Cheese, Lightly smoked, dry
-                cured prosciutto, Assortment of Crackers, Veggies &amp; Fruits
-              </p>
+              <hr className="hr-style-grey mb-1" />             
             </div>
           </div>
 
@@ -368,7 +360,7 @@ const MenuPage = () => (
 
       <Fade left>
       <div className="row justify-content-center text-center">
-        <div className="col-lg-3 col-md-3    mt-4">
+        <div className="col-lg-3 col-md-3  mb-5  mt-5">
           <img
             alt="Pepperoni Roll Appetizer"
             className="img-thumbnail img-block"
@@ -380,11 +372,13 @@ const MenuPage = () => (
         </div>
         </Fade>
 
+  
 
+     
 		  <Fade right>
 
           <div className="row justify-content-center text-center">
-            <div className="col-lg-10 col-md-10 mb-5 pt-5 mt-2  ">
+            <div className="col-lg-10 col-md-10 mb-5 pt-5 mt-5  ">
               <h5 className="txt-white text-uppercase">
                 <strong>Package Options</strong>
               </h5>
@@ -398,11 +392,14 @@ const MenuPage = () => (
             <div className="col-lg-3 col-md-3 pb-5">
               <h4>
                 <img alt="wood fired pizza peel" src={Peel} /> {"\u00A0"}PACKAGE
-                ONE
+                ONE 
               </h4>
               <p className="txt-grey">
                 - Any 4 Combinations Of Wood Fired Pizza
               </p>
+              <p className='txt-grey'>
+                  <strong>$19 per person</strong>
+                </p>
             </div>
             <div className="col-lg-3 col-md-3 pb-5">
               <h4>
@@ -414,6 +411,9 @@ const MenuPage = () => (
                 <br />- Choice of One Appetizer
                 <br />- Salad
               </p>
+              <p className='txt-grey'>
+                  <strong>$22 per person</strong>
+                </p>
             </div>
           </div>
 
@@ -428,6 +428,9 @@ const MenuPage = () => (
                 <br />- Choice of Two Appetizers
                 <br />- Salad
               </p>
+              <p className='txt-grey'>
+                  <strong>$25 per person</strong>
+                </p>
             </div>
             <div className="col-lg-3 col-md-3 pb-5">
               <h4>
@@ -439,6 +442,9 @@ const MenuPage = () => (
                 <br />- Choice of Three Appetizer
                 <br />- Salad
               </p>
+              <p className='txt-grey'>
+                  <strong>$28 per person</strong>
+                </p>
             </div>
           </div>
 
@@ -462,6 +468,72 @@ const MenuPage = () => (
 
 
 		  </Fade>
+
+ 
+      <Fade right>
+        <div className="row justify-content-center text-center">
+            <div className="col-lg-5 col-md-5 mb-5 mt-5 pt-5  ">
+              <h5 className="txt-white text-uppercase">
+                <strong>CHARCUTERIE BOARDS</strong>
+              </h5>
+              <hr className="hr-style-grey mb-5" />
+              <h4 className="mt-5">
+                <span  style={{fontSize: 15}}>*ADD-ON OR SEPARATE EVENT ONLY*</span>
+              </h4>
+              <p className="txt-grey txt-med">
+                Smoked cheddar Cheese, Smoked Gouda Cheese, Red Fox Cheese, Port
+                wine Derby Cheese, Agriform Piave Cheese, Lightly smoked, dry
+                cured prosciutto, Assortment of Crackers, Veggies &amp; Fruits
+              </p>
+            </div>
+          </div>
+          <div className="row justify-content-center text-center">
+        <div className="col-lg-3 col-md-3    mt-3 mb-5">
+          <img
+            alt="Chacuterie Boards"
+            className="img-thumbnail img-block"
+            src={Chacuterie}
+            width="600"
+            height="400"
+          />
+        </div>
+        </div>
+          <div className="row justify-content-center text-center">
+            <div className="col-lg-5 col-md-5 mb-5 mt-1 pt-1  ">
+              <h4>
+                <img alt="wood fired pizza peel" src={Peel} /> {"\u00A0"}
+                FULL TABLE GRAZE - $1400
+              </h4>
+              <p className="txt-grey txt-med">
+                The most standard for large events.<br/>6 foot table graze<br/>Serves 80-100 people
+              </p>
+            </div>
+          </div>
+          <div className="row justify-content-center text-center">
+            <div className="col-lg-5 col-md-5 mb-5 mt-1 pt-1  ">
+              <h4>
+                <img alt="wood fired pizza peel" src={Peel} /> {"\u00A0"}
+                COCKTAIL HOUR GRAZE - $840
+              </h4>
+              <p className="txt-grey txt-med">
+                Serves 50-60 people
+              </p>
+            </div>
+          </div>
+          <div className="row justify-content-center text-center">
+            <div className="col-lg-5 col-md-5 mb-5 mt-1 pt-1  ">
+              <h4>
+                <img alt="wood fired pizza peel" src={Peel} /> {"\u00A0"}
+                DINNER PARTY GRAZE - $300
+              </h4>
+              <p className="txt-grey txt-med">
+                Serves 16-20 people
+              </p>
+
+            </div>
+          </div>
+        </Fade>
+
         </div>
 
     </div>

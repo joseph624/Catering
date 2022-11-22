@@ -169,21 +169,21 @@ const DropOff = () => {
               </h3>
               <br />
               <h4 className='txt-black'>
-                <strong>SANDWICH/WRAP - $16 per box</strong>
+                <strong>SANDWICH/WRAP - $16 per box<br/><span style={{fontSize: 15}}>(10 person minimum)</span></strong>
               </h4>
               <br />
               <p className='txt-med'>
-                Each box includes a signature sandwich, soup &amp; fresh
-                seasonal fruit
+                <strong>Each box includes: </strong><br/>Signature Sandwich, Soup &amp; Fresh
+                Seasonal Fruit
               </p>
               <br />
               <br />
               <h4 className='txt-black'>
-                <strong>SALAD - $16 per box</strong>
+                <strong>SALAD - $16 per box<br/><span style={{fontSize: 15}}>(10 person minimum)</span></strong>
               </h4>
               <br />
               <p className='txt-med'>
-                Each box includes a signature sandwich, soup &amp; a roll
+              <strong>Each box includes: </strong><br/>Signature Sandwich, Soup &amp; Dinner Roll
               </p>
             </div>
 
@@ -196,24 +196,24 @@ const DropOff = () => {
               <br />
               <h4 className='txt-black'>
                 <strong>
-                  PETITE SANDWICHES - $17 per guest (25 person minimum)
+                  PETITE SANDWICHES - $17 per guest<br/><span style={{fontSize: 15}}>(25 person minimum)</span>
                 </strong>
               </h4>
               <br />
               <p className='txt-med'>
-                Each box includes a signature sandwich, soup &amp; fresh
-                seasonal fruit
+              <strong>Each box includes: </strong><br/>Signature Sandwich, Soup &amp; Fresh
+                Seasonal Fruit
                 <br />
                 <br />
-                <strong>Pick two: </strong>
+                <strong>1.) Pick two: </strong>
                 <br /> Signature Sandwiches
                 <br />
                 <br />
-                <strong>Pick one: </strong>
+                <strong>2.) Pick one: </strong>
                 <br /> Classic Chicken Caesar or Spinach Feta Salad
                 <br />
                 <br />
-                <strong>Pick one: </strong>
+                <strong>3.) Pick one: </strong>
                 <br /> Greek Pasta Salad or Fresh Seasonal Fruit
               </p>
             </div>
@@ -245,9 +245,9 @@ const DropOff = () => {
               <strong>Call Now To Order!</strong>
             </h5>
 
-            <a href='tel:740-677-5522'>
+            <a href='tel:6144200216'>
               <button className='btn btn-outline-light btn-lg'>
-                740-677-5522
+                614-420-0216
               </button>
             </a>
             <br />
